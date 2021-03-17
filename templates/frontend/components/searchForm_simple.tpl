@@ -14,6 +14,6 @@
   <div class="form-group">
     <input class="form-control" name="query" value="{$searchQuery|escape}" type="text" aria-label="{translate|escape key="common.searchQuery"}" placeholder="">
   </div>
-  <button type="submit" class="btn btn-default">{translate key="common.search"}</button>
+  <button type="submit" class="btn btn-default"><i class="material-icons">{translate key="common.search"}</i></button>
 </form>
 {/if}
