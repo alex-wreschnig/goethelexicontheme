@@ -38,7 +38,7 @@
 
 		{* Header *}
 		<header class="navbar navbar-default" id="headerNavigationContainer" role="banner">
-
+			<div class="container-bg">
 			{* User profile, login, etc, navigation menu*}
 			<div class="container-fluid">
 				<div class="row">
@@ -117,6 +117,7 @@
 				{/if}
 
 			</div><!-- .pkp_head_wrapper -->
+			</div>
 		</header><!-- .pkp_structure_head -->
 
 		{* Wrapper for page content and sidebars *}
