@@ -12,7 +12,7 @@
   -->
 
 <version>
-	<application>goethelexicon</application>
+	<application>goethelexicontheme</application>
 	<type>plugins.themes</type>
 	<release>1</release>
 	<date>2021-05-11</date>
