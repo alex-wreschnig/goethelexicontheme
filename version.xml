@@ -12,10 +12,10 @@
   -->
 
 <version>
-	<application>bootstrap3</application>
+	<application>goethelexicon</application>
 	<type>plugins.themes</type>
-	<release>3.1.2.6</release>
-	<date>2020-08-25</date>
+	<release>1</release>
+	<date>2021-05-11</date>
 	<lazy-load>0</lazy-load>
-	<class>BootstrapThreeThemePlugin</class>
+	<class>GoetheLexiconThemePlugin</class>
 </version>

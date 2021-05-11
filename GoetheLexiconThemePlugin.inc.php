@@ -1,26 +1,32 @@
 <?php
 
 /**
- * @file plugins/themes/default/BootstrapThreeThemePlugin.inc.php
+ * Goethe-Lexicon Theme Plugin was originally developed for the Goethe-Lexicon website.
+ * @file plugins/themes/default/GoetheLexiconThemePlugin.inc.php 
+ * 
+ * Copyright 2020-2021 University of Pittsburgh
+ * 
+ * It's based on the Bootstrap 3 plugin originally developed by John Willinksy.
  *
- * Copyright (c) 2014-2017 Simon Fraser University Library
- * Copyright (c) 2003-2017 John Willinsky
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *
- * @class BootstrapThreeThemePlugin
+ * @class GoetheLexiconThemePlugin
  * @ingroup plugins_themes_bootstrap3
  *
- * @brief Default theme
+ * @brief Bootstrap-3-derived theme for the Goethe Lexicon.
  */
 
 import('lib.pkp.classes.plugins.ThemePlugin');
-class BootstrapThreeThemePlugin extends ThemePlugin {
+class GoetheLexiconThemePlugin extends ThemePlugin {
 	/**
 	 * Initialize the theme
 	 *
 	 * @return null
 	 */
 	public function init() {
+
+		// Use the parent theme's unique plugin slug
+        $this->setParent('BootstrapThreeThemePlugin');
 
 		// Register option for bootstrap themes
 		$this->addOption('bootstrapTheme', 'radio', array(
