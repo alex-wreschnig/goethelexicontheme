@@ -16,8 +16,8 @@
  *
  */
 
-require_once('BootstrapThreeThemePlugin.inc.php');
+require_once('GoetheLexiconThemePlugin.inc.php');
 
-return new BootstrapThreeThemePlugin();
+return new GoetheLexiconThemePlugin();
 
 ?>
