@@ -26,7 +26,7 @@ class GoetheLexiconThemePlugin extends ThemePlugin {
 	public function init() {
 
 		// Use the parent theme's unique plugin slug
-        $this->setParent('BootstrapThreeThemePlugin');
+        $this->setParent('bootstrap3');
 
 	}
 
