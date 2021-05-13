@@ -30,7 +30,7 @@ class GoetheLexiconThemePlugin extends ThemePlugin {
         // This theme depends on the cleanblog styles from the bootstrap3 theme, so we're making
         // sure to include them here. This includes a LESS file that imports the cleanblog
         // LESS from the bootstrap theme.
-        $this->addStyle('bootstrapCleanBlogStylesheet', 'styles/cleanblog-import.less');
+        //$this->addStyle('bootstrapCleanBlogStylesheet', 'styles/cleanblog-import.less');
 	}
 
 	/**
