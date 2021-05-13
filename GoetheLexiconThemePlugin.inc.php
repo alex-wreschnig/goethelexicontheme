@@ -26,7 +26,7 @@ class GoetheLexiconThemePlugin extends ThemePlugin {
 	public function init() {
 
 		// Use the parent theme's unique plugin slug
-        $this->setParent('bootstrap3');
+        $this->setParent('bootstrapthreethemeplugin');
         $this->addStyle('bootstrapCleanBlogStylesheet', 'styles/cleanblog-import.less');
 	}
 
