@@ -22,7 +22,7 @@ The Goethe-Lexicon theme is currently intended for OJS 3.1.2, and is based on th
 
 ## Contributions
 
-Development of this theme was performed at [the University Library System of the University of Pittsburgh](https://library.pitt.edu).
+Development of this theme was performed at [the University Library System of the University of Pittsburgh](https://library.pitt.edu). A huge debt of gratitude is also owed to the contributors to the Bootstrap 3 theme on which this is based, and also to the contributors and supporters of the Open Journal Systems project and the Public Knowledge Project.
 
 Thanks to our contributors:
 - Alex Wreschnig, @alex-wreschnig ([University of Pittsburgh](https://library.pitt.edu))
